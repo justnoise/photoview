@@ -1,0 +1,14 @@
+This is a small application I created to learn Tkinter programming and manage my travel photos.  My main operations are separating the good photos from the bad, resizing (for uploading or email over slow links) and associating comments with photos so I can remember why the heck I took a that grainy picture of a beer can.
+
+Now that I have a higher resolution camera, I'd also like to do more cropping that might make it into version 1.1.  In addition to cropping, this project needs some reworking to get it more in line with what I've learned from writing subsequent Tkinter applications.  I'll probably get to that when I start editing the 5K photos I took on my last trip.
+
+Todo:
+* move to an MVC style of organizing GUI elements.  This has helped subsequent Tkinter projects.
+* Can we implement some type of command system to get rid of all the callbacks?
+* add a .dot_file to persist the last folder the user opened and other interesting settings
+** open the last folder when the user starts the program
+* update to use ttk and switch to using a notebook for move/size/comment chooser
+* add the ability to select a photo when viewing in image_viewer.py, give the user feedback that the photo was selected, perhaps some type of checkbox placed over the photo.
+* add ability to zoom in fullscreen view.
+* drag mouse to select items
+* Ctrl-F enters fullscreen but on a mac, can we make it command-F?
